@@ -6,7 +6,7 @@ import GridGlobe from "./GridGlobe";
 import { useState } from "react";
 import animationData from "@/data/confetti.json";
 import { IoCopyOutline } from "react-icons/io5";
-import MagicButton from "./MagicButton";
+import MagicButton from "../MagicButton";
 import dynamic from "next/dynamic";
 
 const Lottie = dynamic(() => import("react-lottie"), { ssr: false });
